@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>signupdemo</title>
+</head>
+<body>
+	<div class="header">
+        <h1>Trang thử nghiệm</h1>
+    </div>
+    <div class="contain">
+        <form class="form" id="form" action="xulyform.php" method="post">
+            <label>Tên của bạn:</label><br>
+            <input type="text" name="name" placeholder="Nguyễn Văn A" required="required"/><br>
+            <label>Email của bạn:</label><br>
+            <input type="email" name="email" placeholder="nguyenvana@gmail.com"/><br>
+            <label>Bạn bao nhiêu tuổi?</label><br>
+            <input type="number" id="age" name="age" value="20" min="18" max="50"><br>
+			<label>Mật khẩu: </label><br>
+			<input type="password" id="password" name="password" min="8" required="required"/><br>
+			<label>Nhập lại mật khẩu: </label><br>
+			<input type="password" id="password1" name="password1" min="8" required="required"/><br><br>
+			<input type="submit" name="submit">
+        </form>
+    </div>
+</body>
+</html>
